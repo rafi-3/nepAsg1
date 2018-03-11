@@ -8,7 +8,7 @@ public class Supplier {
 	
 	@Override
 	public String toString() {
-		return " companyName=" + companyName + ", companyContact=" + companyContact + "]";
+		return " companyName=" + companyName + ", companyContact=" + companyContact + " ";
 	}
 	
 	

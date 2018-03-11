@@ -8,6 +8,7 @@ public class RunProgramEmployeeManagement {
 		Scanner scanner = new Scanner(System.in);		
 		
 		while(true) {
+			
 			System.out.println("Welcome to Hospital Management");
 			System.out.println("Employee Management");
 			System.out.println("Choose to see which employee available today");
@@ -21,22 +22,22 @@ public class RunProgramEmployeeManagement {
 			
 //			Doctor
 			if(option == 1) {
-				System.out.println(EmployeeManagement2.getDoc());	
+				System.out.println(EmployeeManagement.getDoc());	
 			}
 			
 //			Nurse
 			if(option == 2) {
-				System.out.println(EmployeeManagement2.getNur());
+				System.out.println(EmployeeManagement.getNur());
 			}
 			
 //			pharmacist
 			if(option == 3) {
-				System.out.println(EmployeeManagement2.getPhar());
+				System.out.println(EmployeeManagement.getPhar());
 			}
 			
 //			Cleaner
 			if(option == 4) {
-				System.out.println(EmployeeManagement2.getCln());
+				System.out.println(EmployeeManagement.getCln());
 			}
 			
 //			quit
