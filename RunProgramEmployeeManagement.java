@@ -21,46 +21,22 @@ public class RunProgramEmployeeManagement {
 			
 //			Doctor
 			if(option == 1) {
-//				System.out.println("Available Doctors:");
-//				Doctor employee1 = new Doctor("Rafi", "Surgeon", "AM", 8669669, "Available");
-//				System.out.println(employee1);
-//				Doctor employee2 = new Doctor("Riley", "Dentist", "AM/PM", 8885555, "Available");
-//				System.out.println(employee2);
-//				Doctor employee3 = new Doctor("August", "Gyne", "PM", 8628700, "Busy");
-//				System.out.println(employee3);
-//				Doctor employee4 = new Doctor("Ariana", "Out Patient", "AM", 8805325, "Away");
-//				System.out.println(employee4);
-
-//				for(Doctor tmp: doc) {
-//					System.out.println(tmp);
-//				}
-				
-//				for( int i = 0; i < EmployeeManagement2.Doctor.size(); i++) {
-//					System.out.println(doc);
-//				}
-				
-				
+				System.out.println(EmployeeManagement2.getDoc());	
 			}
 			
 //			Nurse
 			if(option == 2) {
-				System.out.println("Available Nurse:");
-				Nurse employee1 = new Nurse("Rafi", "Beranak", "24hrs", 8669669, "Available");
-				System.out.println(employee1);
+				System.out.println(EmployeeManagement2.getNur());
 			}
 			
 //			pharmacist
 			if(option == 3) {
-				System.out.println("Available Pharmacist");
-				Pharmacist employee1 = new Pharmacist("Adib", "", "AM/PM", 8885555, "Available");
-				System.out.println(employee1);
+				System.out.println(EmployeeManagement2.getPhar());
 			}
 			
 //			Cleaner
 			if(option == 4) {
-				System.out.println("Available Cleaner");
-				Cleaner employee1 = new Cleaner("Yana", "", "AM/PM", 8885555, "Available");
-				System.out.println(employee1);
+				System.out.println(EmployeeManagement2.getCln());
 			}
 			
 //			quit
