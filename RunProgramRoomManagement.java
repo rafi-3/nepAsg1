@@ -2,7 +2,7 @@ package asg1;
 
 import java.util.Scanner;
 
-public class RunProgramRoomM {
+public class RunProgramRoomManagement {
 
 	static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
